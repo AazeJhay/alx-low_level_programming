@@ -22,6 +22,5 @@ int main(void)
 		puts("%d is zero, n");
 	else if (n < 0)
 		puts("%d is less than zero, n");
-
 	return (0);
 }
