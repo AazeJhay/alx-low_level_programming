@@ -17,17 +17,11 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
 	if (n > 0)
-	{
 		puts("%d is positive, n");
-	}
 	else if (n == 0)
-	{
 		puts("%d is zero, n");
-	}
 	else if (n < 0)
-	{
-	puts("%d is less than zero, n");
-	}
+		puts("%d is less than zero, n");
 
 	return (0);
 }
